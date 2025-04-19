@@ -20,7 +20,7 @@ from dataclasses import dataclass
 
 @dataclass
 class ModelTrainerConfig:
-    trained_model_file_path = os.path.join('FILEfolder','preprocessor.pkl')
+    trained_model_file_path = os.path.join('FILEfolder','model.pkl')
 class ModelTrainer:
     def __init__(self):
         self.model_trainer_config = ModelTrainerConfig()
